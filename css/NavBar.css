@@ -1,0 +1,11 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+.icon{
+  width: 147px;
+  text-align: right;
+}
+.fa-user-circle-o{
+ font-size: 46px;
+}

@@ -1,0 +1,18 @@
+.banner{
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+.banner-text >h1 {
+  text-align: center;
+  font-size: 103px;
+}
+.banner-text >h2 {
+  padding-left: 125px;
+  margin-top: 30px;
+}
+
+hr{
+  width:60%;
+  margin-left: 125px;
+  margin-top: 10px;
+}
