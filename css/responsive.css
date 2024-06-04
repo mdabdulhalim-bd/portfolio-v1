@@ -53,4 +53,29 @@
   .right-card-desc p {
     padding-bottom: 20px;
   }
+ 
+.right-single-card img{
+  width:40%;
+  margin-top: 20px;
+}
+.right-side-desc{
+  text-align: center;
+  padding: 20px 20px;
+}
+.right-side-desc h1{
+  font-size: 24px;
+  text-align: center;
+}
+  /* //============== Footer =========  */
+
+.footer-contents{
+  flex-direction: column;
+}
+.footer-left-side-form,
+.footer-right-contact{
+  width:100%;
+}
+.footer-title h1{
+  font-size: 30px;
+}
 }
