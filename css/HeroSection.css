@@ -113,6 +113,91 @@
   border: 1px solid var(--whitecolor);
   cursor: pointer;
 }
+
+/* // === My Blogs ==============  */
+.my-blogs-container{
+  width: 90%;
+  margin: 0 auto;
+  padding: 100px 0 0 0;
+}
+.blog-title{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.left-arr,
+.right-arr{
+  width:24px;
+  height: 24px;
+  background-color: var(--whitecolor);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+}
+.left-arr img,
+.right-arr img{
+  width:14px;
+  height: 14px;
+  cursor: pointer;
+}
+.icon{
+  display: flex;
+  gap: 10px;
+}
+
+.blog-cards{
+  margin: 40px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+.img img{
+  width:100%;
+}
+.circle{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+}
+.circle span{
+  color: var(--whitecolor);
+  font-family: "Poppins", sans-serif;
+}
+.circle-1{
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color:  #5E4AF1;
+}
+.circle-2{
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background-color: #BA0BF9;
+}
+.service-btn{
+  padding: 15px 40px;
+  border-radius: 27px;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: block;
+  margin: 20px 0;
+}
+.single-blog-card p{
+  font-family: "Poppins",sans-serif;
+  color: var(--whitecolor);
+  margin-top: 20px;
+}
+
+
+
+
 /* Testimonial Section =============  */
 .testimonial-area{
   width: 90%;
