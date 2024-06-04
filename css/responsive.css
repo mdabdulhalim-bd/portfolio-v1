@@ -1,4 +1,42 @@
 @media only screen and (max-width: 768px) {
+  .banner-profile-section{
+    flex-direction: column-reverse;
+  }
+  .checkwork-btn h1{
+    margin: 20px 0;
+  }
+  .navbar{
+    margin-bottom: 20px;
+  }
+ .navbar .menu{
+  display: none;
+ }
+  /* banner ==============  */
+  .banner-text >h1 {
+    font-size: 50px;
+    text-align: center;
+  }
+  .banner-text >h2 {
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-size: 16px;
+    text-align: center;
+  }
+   
+  
+  /* project counter ============ */
+  .banner-project-section{
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+  }
+  .project-container h1{
+    font-size: 68px;
+  }
+  .project-container h2{
+    font-size: 20px;
+  }
 
   /* // ======= portfolio area ===== =  */
   .project-gallary{
